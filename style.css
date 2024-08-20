@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1486125158/photo/gray-blue-purple-lilac-orchid-pink-peach-beige-abstract-background-color-gradient-light-dusty.webp?b=1&s=612x612&w=0&k=20&c=fHVzpRcnUYV2xs3BScGdg_q-_Aouqu7eTZIS4WG1xL0=');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.todo-container {
+    background-color: rgba(63, 47, 47, 0.6); 
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(51, 50, 50, 0.3);
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.error-msg {
+    text-align: center;
+    color: #ff0000;
+}
+
+.hide {
+    display: none;
+}
+
+.todo-input, .edit-todo-input {
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+.add, .save {
+    border-radius: 5px;
+}
+
+.del-btn, .edit-btn {
+    width: 50px;
+    height: 30px;
+    font-size: small;
+    border-color: khaki;
+    border-radius: 6px;
+    background-color: rgba(240, 230, 140, 0.685);
+    color: rgb(92, 27, 27)2, 27, 27);
+}
+
+.output-text {
+    font-size: 22px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
